@@ -205,6 +205,9 @@ h3 {
     padding-left: 12px;
 }
 
+.menu-list-item {
+    padding-top: 8px;
+}
 .item:not(:last-child) {
     margin-right: 24px;
 }
