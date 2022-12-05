@@ -5,6 +5,7 @@
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
 .first-logo {
     text-decoration: none;
     margin-right: 77px;
@@ -32,9 +33,15 @@
     text-transform: uppercase;
     color: #2E2F42;
 }
+
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px;
+    margin: 0 auto;
+    padding-right: 12px;
+    padding-left: 12px;
+    
 }
 
 .page-nav {
@@ -77,13 +84,15 @@ button {
     text-decoration: none;
 }
 
-.container{
+.second-container{
     width:1158px ;
     margin-right: auto;
     margin-left: auto;
     padding-right: 12px;
     padding-left: 12px;
+    padding-top: 120px;
 }
+
 .menu-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -96,6 +105,7 @@ button {
 .menu-item:not(:last-child) {
     margin-right: 40px; 
 }
+
 .menu-link:hover,
 .menu-link:focus {
     color: #4D5AE5;
@@ -129,10 +139,13 @@ button {
 /* main */
 .hero {
     background: #2E2F42;
+    text-align: center;
+    padding-top: 192px;
+    padding-bottom: 192px;
     padding-right: 12px;
     padding-left: 12px;
-    text-align: center;
 }
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -141,13 +154,10 @@ h1 {
     line-height: 60px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    padding-top: 192px;
-    padding-right: 474px;
-    padding-bottom: 48px;
-    padding-left: 474px;
     margin-top: 0;
     margin-bottom: 0;
 }
+
 
 .modal-btn {
     display:inline-flex;
@@ -164,10 +174,7 @@ h1 {
     cursor:pointer;
     color: #ffffff;
     background: #4D5AE5;
-    margin-top:  48px; 
-    margin-right: 635px;
-    margin-bottom: 192px;
-    margin-left: 635px;
+    margin-top:  48px;
     text-align: center
 }
 
@@ -176,12 +183,6 @@ h1 {
     background-color: #404BBF ;
 }
 
-.second-container {
-    width: 1158px;
-    margin: 0 auto;
-    padding-right: 12px;
-    padding-left: 12px;
-}
 
 h3 {
     font-family: 'Roboto', sans-serif;
@@ -194,23 +195,18 @@ h3 {
 
 .menu-list {
     list-style: none;
-    padding-top: 120px;
-    padding-right: 156px;
-    padding-left: 156px;
     display: flex;
     justify-content: space-between;
-    width: 1158px;
-    margin: 0 auto;
-    padding-right: 12px;
-    padding-left: 12px;
 }
 
 .menu-list-item {
     padding-top: 8px;
 }
+
 .item:not(:last-child) {
     margin-right: 24px;
 }
+
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -229,22 +225,45 @@ h2 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    padding-bottom: 72px;
+}
+
+.photos {
     padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.photo-item {
+    width: 1158px;
+    margin: 0 auto;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
 .photo {
     margin-right: 24px;
 }
+
 .our-team-background {
     background: #F4F4FD;
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
+.our-team {
+    width: 1158px;
+    margin: 0 auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.photo-list-item {
+    margin-bottom: 72px;
+}
+
 .photo-list {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding-bottom: 120px;
 }
 
 .team-photos:not(:last-child) {
@@ -260,23 +279,26 @@ h2 {
 
 .name {
     padding-top: 32px;
-    padding-right: 64.5px;
     padding-bottom: 8px;
-    padding-left: 64.5px;
+    
 }
 
 .work {
-    padding-right: 68px;
     padding-bottom: 32px;
-    padding-left: 68px;
 }
 
 /* portfolio */
+
+.buttons-list-item {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .filter-btn-list {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .filter-btn {
@@ -305,9 +327,8 @@ h2 {
     color: #FFFFFF;
 }
 
-.buttons-list {
+.buttons-list:not(:last-child) {
     margin-right: 24px;
-    padding-top: 96px;
 }
 
 .images {
@@ -317,7 +338,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    padding-bottom: 120px;
 }
 
 .content-item:not(:nth-child(3n)) {
@@ -331,7 +351,7 @@ h2 {
 .photo-text {
     padding-top: 32px;
     padding-right: 53px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     padding-left: 16px;
 }
 
@@ -350,7 +370,7 @@ h2 {
     background: #2E2F42;
     padding-right: 12px;
     padding-top: 100px;
-    padding-bottom: 16px;
+    padding-bottom: 100px;
 }
 
 .footer-item {
@@ -366,6 +386,7 @@ h2 {
 .second-logo {
     text-decoration: none;
 }
+
 .second-logo {
     font-family: 'Raleway';
     font-weight: 800;
@@ -376,8 +397,9 @@ h2 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
+
 .footer-text {
     font-family: 'Roboto';
     font-weight: 400;
@@ -385,8 +407,6 @@ h2 {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-    padding-bottom: 100px;
     width: 264px;
-    height: 72px;
 }
 
