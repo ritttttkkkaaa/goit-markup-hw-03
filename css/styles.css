@@ -43,9 +43,6 @@
     padding-left: 15px;
 }
 
-.second-container {
-    padding-top: 120px ;
-}
 .header-container {
     display: flex;
     align-items: center;
@@ -56,11 +53,9 @@
     
 }
 
-.footer-container {
+.second-container {
     padding-top: 120px;
 }
-
-
 .page-nav {
     display: flex;
     align-items: center;
@@ -260,13 +255,6 @@ h2 {
     padding-bottom: 120px;
 }
 
-.our-team {
-    width: 1158px;
-    margin: 0 auto;
-    padding-right: 12px;
-    padding-left: 12px;
-}
-
 .photo-list-item {
     margin-bottom: 72px;
 }
@@ -286,16 +274,12 @@ h2 {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+    padding-top: 32px; 
+    padding-bottom: 32px;
 }
 
 .name {
-    padding-top: 32px;
-    padding-bottom: 8px;
-    
-}
-
-.work {
-    padding-bottom: 32px;
+    margin-bottom: 8px;
 }
 
 /* portfolio */
@@ -342,13 +326,17 @@ h2 {
     margin-right: 24px;
 }
 
+.buttons-item {
+    width: 1158px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .images {
     list-style: none;
-    width: 1158px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto;
 }
 
 .content-item:not(:nth-child(3n)) {
@@ -376,6 +364,7 @@ h2 {
     background: #2E2F42;
     padding-right: 12px;
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .second-logo {
